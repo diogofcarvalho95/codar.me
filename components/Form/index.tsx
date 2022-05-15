@@ -35,8 +35,8 @@ const Form = () => {
 
   return (
     <form className="space-y-3 md:space-y-4 mt-3 md:mt-6 flex flex-col" onSubmit={handleSubmit}>
-      <input className="block w-full px-4 py-3 bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="nome" type="text" placeholder="Introduza o seu nome" required onChange={handleChange}/>
-      <input className="block w-full px-4 py-3 bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="email" type="email" placeholder="Introduza o seu email" required onChange={handleChange}/>
+      <input className="block w-full px-4 py-3 text-white bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="nome" name="nome" type="text" placeholder="Introduza o seu nome" required onChange={handleChange}/>
+      <input className="block w-full px-4 py-3 text-white bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="email" name="email" type="email" placeholder="Introduza o seu email" required onChange={handleChange}/>
       <button type="submit" className="px-4 py-3 bg-gradient-to-br from-gradientSky-0 to-gradientSky-1 rounded-lg text-white font-semibold">Confirmar inscrição</button>
     </form>
   );
