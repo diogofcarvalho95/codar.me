@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS
+# Landing Page (Next.js + Tailwind CSS)
 
 Projeto realizado durante a live do Codar.me para praticar Next.js e Tailwind CSS.
 
