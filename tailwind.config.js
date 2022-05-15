@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['Rubik', ...defaultTheme.fontFamily.sans],
-      'montserrat': ['"Montserrat"', 'cursive']
+      'montserrat': ['"Montserrat"', 'ui-sans-serif']
     },
     extend: {
       colors: {
