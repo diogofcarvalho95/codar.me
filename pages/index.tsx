@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             <form className="space-y-3 mt-3 flex flex-col">
               <input className="block w-full px-4 py-3 bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="nome" type="text" placeholder="Introduza o seu nome"/>
               <input className="block w-full px-4 py-3 bg-gray-600 rounded-lg focus:ring-white focus:border-white" id="email" type="email" placeholder="Introduza o seu email"/>
-              <button type="submit" class="px-4 py-3 bg-gradient-to-br from-gradientSky-0 to-gradientSky-1 rounded-lg text-white font-semibold">Confirmar inscrição</button>
+              <button type="submit" className="px-4 py-3 bg-gradient-to-br from-gradientSky-0 to-gradientSky-1 rounded-lg text-white font-semibold">Confirmar inscrição</button>
             </form>
           </div>
         </section>
