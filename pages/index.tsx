@@ -5,7 +5,7 @@ import Contact from '../components/Form'
 
 const Home: NextPage = () => {
   return (
-    <div className="p-3 bg-gray-900 bg-[url('/next/image/elipse.png')] bg-left-top bg-no-repeat bg-contain">
+    <div className="p-3 bg-gray-900 bg-[url('/elipse.png')] bg-left-top bg-no-repeat bg-contain">
       <Head>
         <title>Codar.me</title>
         <meta name="description" content="Aprenda a desenvolver uma aplicação full stack utilizando JavaScript, mesmo que você não saiba nada sobre programação" />
