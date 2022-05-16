@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <section className="md:flex md:space-x-8 lg:space-x-10 md:items-center md:justify-between" id="hero">
             <div className="md:flex-1 md:max-w-lg">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-gradientSky-0 to-gradientSky-1">Evento 100% online e gratuito</span>
-              <h1 className="text-3xl lg:text-5xl font-bold md:font-extrabold text-white font-montserrat mt-1 md:mt-3">Desenvolva uma aplicação full-stack do zero</h1>
+              <h1 className="text-3xl lg:text-5xl font-bold md:font-extrabold text-white leading-tight font-montserrat mt-1 md:mt-3">Desenvolva uma aplicação full-stack do zero</h1>
               <p className="text-gray-300 text-base mt-3 md:mt-6">Aprenda a desenvolver uma aplicação full stack utilizando JavaScript, <strong className="text-white">mesmo que você não saiba nada sobre programação</strong>.</p>
             </div>
             <Contact/>
