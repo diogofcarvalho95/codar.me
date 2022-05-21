@@ -11,6 +11,11 @@ module.exports = {
       'montserrat': ['"Montserrat"', 'ui-sans-serif']
     },
     extend: {
+      fontSize: {
+        '5xl': ['3rem', {
+          lineHeight: '1.25',
+        }]
+      },
       colors: {
         gradientSky: ['#8876FE', '#73D0EE']
       },
