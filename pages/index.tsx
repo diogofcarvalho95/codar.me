@@ -25,12 +25,12 @@ const Home: NextPage = () => {
             <Contact/>
           </section>
         </main>
-        <div class="text-gray-300 flex gap-1 items-center cursor-pointer md:pb-8">
+        <div class="text-gray-300 hidden md:flex md:gap-1 md:items-center md:cursor-pointer md:pb-8">
           <svg viewBox="0 0 25 25" class="h-3" fill="currentColor" width="25"><path d="M13.5 2a1.5 1.5 0 00-3 0h3zm-2.56 22.06a1.5 1.5 0 002.12 0l9.547-9.545a1.5 1.5 0 10-2.122-2.122L12 20.88l-8.485-8.486a1.5 1.5 0 10-2.122 2.122l9.546 9.546zM10.5 2v21h3V2h-3z"></path></svg>
           <a href="#project">Saiba mais</a>
         </div>
       </div>
-      <section id="project" class="container mx-auto md:max-w-6xl py-6 lg:py-20">
+      <section id="project" class="container mx-auto md:max-w-6xl pt-12 lg:py-20">
         <h2 class="mb-0 text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-gradientSky-0 to-gradientSky-1">O que você vai aprender</h2>
         <p className="text-gray-300 text-base mt-3 md:mt-4 lg:mt-5 max-w-2xl leading-relaxed">Nós vamos <strong className="text-white">criar um mini clone do Twitter</strong>, iniciando com HTML e CSS apenas, evoluindo para frameworks como React e Tailwind. Sempre falando de como tudo funciona, para que <strong className="text-white">mesmo que não entende nada de programação</strong> possa entender e acompanhar.</p>
         <div class="mt-6 md:mt-8 lg:mt-10 flex flex-wrap gap-6">
@@ -61,13 +61,13 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-      <section id="about" class="container mx-auto md:max-w-6xl py-6 lg:py-20">
+      <section id="about" class="container mx-auto md:max-w-6xl pt-12 pb-12 lg:py-20">
         <div class="md:flex md:gap-5 md:items-center">
           <div>
             <h2 class="text-3xl lg:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-br from-gradientSky-0 to-gradientSky-1">Conheça seu professor</h2>
             <p class="text-gray-300 text-base mt-3 md:mt-4 lg:mt-5 max-w-2xl leading-relaxed">Qualquer pessoa tem algo a ensinar. Mas <strong className="text-white">só quem conhece o mercado e tem muita experiência em projetos reais</strong>, sabe exatamente o caminho para se tornar um profissional acima da média.</p>
           </div>
-          <div class="bg-gray-800 p-3 gap-4 rounded-3xl flex flex-col md:flex-row items-center">
+          <div class="bg-gray-800 p-3 gap-4 rounded-3xl flex flex-col md:flex-row items-center mt-8 md:mt-0">
             <div class="pl-5">
               <Image src="/avatar_blue.png" alt="Bruno Bertolini" width={190} height={240}/>
             </div>
